@@ -19,7 +19,7 @@
 
         <bean id="ViewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
             <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
-            <property name="prefix" value="/WEB-INFO/views/">
+            <property name="prefix" value="/webapp/views/">
                
             </property>
             <property name="suffix" value=".jsp"></property>
